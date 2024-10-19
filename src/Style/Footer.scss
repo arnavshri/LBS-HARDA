@@ -1,0 +1,213 @@
+@font-face {
+    font-family: Impact0;
+    src: url("../Fonts/impact_0.ttf");
+  }
+  
+.Footer{
+    background-image: url("https://res.cloudinary.com/lbs-harda/image/upload/v1648908965/Image_cjvdhp.png");
+    color: white;
+    font-family:"Calibri";
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    // height: min-content;
+    width: 100vw;
+    overflow: hidden;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover{
+        color: rgb(214, 213, 213);
+    }
+}
+
+.ebtn{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover{
+        color: rgb(214, 213, 213);
+    }
+}
+
+.footer-img{
+    width: 100%;
+}
+
+#Logo{
+    height:6rem;
+}
+
+#clgname{
+    color:white;
+    font-family: Impact0;
+    font-size: 3rem;
+    // letter-spacing: 0.2rem;
+    border-bottom:0.1rem solid white;
+    width:fit-content;
+}
+
+.Map{
+    height: 12.5rem;
+}
+
+.mapContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+    // width: 30%;
+    p{
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+.mainContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1rem 0;
+    h4{
+        border-bottom:0.1rem solid white;
+        width:fit-content;
+    }
+
+    ul{
+        white-space: nowrap;
+        font-size:1.2rem;
+
+        li{
+            font-size:1rem;
+        }
+    }
+
+    // height: 60vh;
+    // overflow: hidden;
+
+    .section{
+        // display: flex;
+        // // justify-content: center;
+        // // align-items: center;
+        // flex-direction: column;
+        padding: 1rem;
+    }
+}
+
+
+i{
+    padding-right:1rem;
+}
+
+#footervl{
+    background-color: white;
+    // height: 85%;
+    margin: 0rem 1rem;
+}
+
+// .section{
+//     display: flex;
+//     flex-direction:column;
+//     align-items: center;
+//     width: fit-content;
+//     padding: 0 2rem;
+//     ul{
+//         li{
+//             padding: 0.5rem;
+//         }
+//     }
+
+//     height: fit-content;
+// }
+
+
+// .sections{
+//     display: flex;
+//     justify-content: flex-start;
+//     height: fit-content;
+//     flex-direction: row;  
+//     flex-wrap: wrap;
+// }
+
+// .Zcontainer{
+//     display: flex;
+//     flex-direction: row;
+//     margin: 0;
+// }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+    // button{
+    //     border: 0.2rem solid white;
+    //     background-color: transparent;
+    //     border-radius: 2rem;
+    //     margin: auto;
+    // }
+}
+
+.formInput{
+    color:#01471B;
+    text-align: center;
+    background-color:  white !important;
+    margin:0.5rem 0;
+    border-radius: 2rem;
+    // width:25rem;
+    // height:2rem;
+    border: none;
+}
+
+#submit{
+    border-radius:2rem !important;
+    // width:10rem;
+    font-size: 1rem;
+    padding: 0rem 1rem;
+    // margin: auto;
+    margin-top: 0.5rem;
+}
+
+footer{
+    padding: 0.2rem;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family:"Calibri";
+    img{
+        height: 2rem;
+    }
+
+    p{
+        margin-bottom: 0 !important;
+        padding: 0rem 0.3rem;
+        margin-top: 0.1rem;
+    }
+}
+
+.PhoneInputCountry{
+    display: none !important;
+}
+
+.PhoneInputInput{
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+
+.invalid{
+    color: red !important;
+}
+

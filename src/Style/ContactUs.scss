@@ -1,0 +1,135 @@
+.contactus-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.green-box1 {
+  height: 34rem;
+  width: 10%;
+  background-color: #216FDB;
+}
+
+.contactus {
+  font-family:"Calibri";
+  padding: 4% 0;
+  width: 80%;
+}
+
+.mycontent {
+  padding: 1% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    color: #216FDB;
+    text-align: center;
+  }
+
+  hr {
+    border: 2px solid #216FDB;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+span {
+  color: #216FDB;
+  font-size: 1.5rem;
+}
+
+.line {
+  border-left: 4px solid #216FDB;
+  height: 45rem;
+}
+
+.cntform {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  padding: 0 5%;
+  margin-right: 0;
+
+}
+
+.map-text {
+  text-align: center;
+  margin-top: 4%;
+  color: #0f001a;
+  font-size: 1.3rem;
+}
+
+.form-text {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.grid-container {
+  border: 1px solid #216FDB;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 60% 4px auto;
+  padding-bottom: 2%;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.map-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img {
+    height: 100%;
+  }
+}
+
+//--------------Media Query For Tablet Size------------
+@media only screen and (max-width: 1400px) {
+  .line {
+    height: 35rem;
+  }
+
+  .map-flex {
+    padding: 0 10%;
+    justify-content: center;
+    img {
+      height: auto;
+      width: 90%;
+    }
+  }
+}
+
+//-----------------Media Quesry For Phne Size--------------
+@media only screen and (max-width: 600px) {
+  .green-box {
+    display: none;
+  }
+
+  .contactus {
+    width: 100%;
+  }
+
+  .grid-container {
+    border: none;
+    grid-template-columns: auto;
+    padding-bottom: 2%;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .line {
+    border-bottom: 4px solid #216FDB;
+    margin: 4%;
+    height: auto;
+  }
+}

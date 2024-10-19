@@ -1,0 +1,40 @@
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 1.5rem;
+
+  img {
+    width: 2rem;
+    margin: 0rem 1rem;
+  }
+}
+
+.groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem;
+  padding: 1rem 0;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // background-color: #f0fff8;
+  background-color: #216fdb47;
+  margin: 1.5rem 0rem;
+  color: #216FDB;
+  font-family:"Calibri";
+  font-style: normal;
+  font-weight: normal;
+  padding: 0.5rem 0rem;
+
+  h3 {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+}

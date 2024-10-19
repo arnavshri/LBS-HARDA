@@ -1,0 +1,57 @@
+.Governing-body{
+    margin: 4rem auto;
+    
+    img{
+        padding: auto;
+        height: 10rem;
+    }
+}
+#head1{
+    text-align: center;
+    margin: 2rem 5rem;
+
+    
+    p{
+        font-size: 1.8rem;
+    }
+}
+.section1{
+    h1{
+        margin-left: 6rem;
+        margin-top: 3rem;
+        color: #01471B;
+        text-decoration: underline;
+        text-align: left;
+    }
+}
+
+#members{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.greenBox{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10rem;
+    background-color:#E5FFF3;
+    height:6rem;
+    width: 80vh;
+    h2{
+        padding: 1rem 2rem 0 3rem;
+        align-items: center;
+        font-weight: bold;
+    }
+    p{
+        padding-left:3rem;
+        font-weight: bold;
+    }
+    margin: 6rem 6rem;
+    align-items: center;
+}
+
+.exe{
+    height: 8rem;
+    margin: 4rem 6rem;
+}

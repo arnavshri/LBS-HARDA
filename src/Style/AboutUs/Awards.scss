@@ -1,0 +1,108 @@
+#LKPS{
+    padding: 0 5%;
+    h2, h3{
+        margin-top: 1rem;
+    }
+
+    h3{
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.awards{
+    h4 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 22vh;
+    }
+    p{
+        font-size: 1.3rem;
+        padding:1rem 2rem;
+        text-align: justify;
+    }
+    span{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.awr{
+    margin-top:2rem;
+}
+
+.awardsList{
+    h4 {
+        font-weight: bold;
+    }
+    text-align: justify;
+    p{
+        font-size: 1.3rem;
+    }
+    margin-bottom: 3rem;
+
+    ul{
+        padding: 0;
+        width: 90%;
+        margin: auto;
+    }
+    
+    table{
+        td{
+            border: 2px solid black;
+            margin: 1rem;
+        }
+
+        tr{
+            margin: 1rem 0;
+        }
+
+        .imgTd{
+            width: 0;
+        }
+
+        .awardContentTd{
+            padding: 2rem;
+        }
+    }
+}
+//sun vo wapas cut hora hai navbar mai ipadpro version mai and mere laptop mai , fix krdena padhle tu cut this line
+.awardImg{
+    height: 10rem;
+    border: 0.2rem solid #fff;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 990px) {
+    .awardSection{
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .adm-box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .procedure{
+            width: 100%;
+            border-radius: 0;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+        .procedure-con{
+            padding: 1rem 0;
+            text-align: center;
+        }
+    }
+}

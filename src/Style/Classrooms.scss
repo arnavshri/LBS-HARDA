@@ -1,0 +1,143 @@
+#cls-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  background-image: url("https://res.cloudinary.com/lbs-harda/image/upload/v1648913149/2_1_rghkwr.png");
+  object-fit: cover;
+}
+
+.cls-heading {
+  font-family:"Calibri";
+  color: #ffffff;
+  font-size: 4.9rem;
+  letter-spacing: 1.5rem;
+  text-align: center;
+}
+
+.cls-content {
+  padding: 3% 5%;
+}
+
+.clas-heading {
+  text-align: center;
+  color: #216FDB;
+  font-family:"Calibri";
+  margin-bottom: 2%;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+.multi-cls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    padding: 4%;
+    width: 50%;
+    font-size: 1.3rem;
+    font-family:"Calibri";
+    margin: 0;
+  }
+
+  img {
+    width: 40%;
+    border: 0.5rem solid #216FDB;
+  }
+}
+
+.img-flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+  img {
+    height: 80%;
+    margin-right: 2%;
+    border: 0.5rem solid #216FDB;
+  }
+}
+
+//--------------Media Query For Tablet Size------------
+@media only screen and (max-width: 1400px) {
+  #cls-flex {
+    height: 40vh;
+    background-size: cover;
+  }
+
+  .multi-cls {
+    flex-direction: column;
+    p {
+      width: 100%;
+      text-align: center;
+      padding: 2%;
+      margin-bottom: 2%;
+    }
+  }
+
+  .img-flex {
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 30%;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .multi-cls {
+    img {
+      width: 90%;
+    }
+  }
+
+  .img-flex {
+    img {
+      width: 50%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+//-----------------Media Quesry For Phne Size--------------
+@media only screen and (max-width: 600px) {
+  .cls-heading {
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1rem;
+  }
+
+  #cls-flex {
+    height: 20vh;
+    background-size: cover;
+  }
+
+  .clas-heading {
+    font-size: 1.6rem;
+    margin-top: 4%;
+  }
+
+  .multi-cls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      font-size: 1.1rem;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  .img-flex {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 80%;
+      margin-top: 4%;
+    }
+  }
+}

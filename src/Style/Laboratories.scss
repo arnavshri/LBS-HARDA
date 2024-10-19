@@ -1,0 +1,150 @@
+#lab-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  background-image: url("https://res.cloudinary.com/lbs-harda/image/upload/v1648913149/3_1_w3lhan.png");
+}
+
+.lab-heading {
+  font-family:"Calibri";
+  color: #ffffff;
+  font-size: 4.9rem;
+  letter-spacing: 1.5rem;
+  text-align: center;
+}
+
+.lab-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 4%;
+  text-align: center;
+  font-family:"Calibri";
+
+  h1 {
+    color: #216FDB;
+    text-decoration: underline;
+    margin-bottom: 1.5%;
+  }
+}
+
+.lab-para-content {
+  text-align: justify;
+  width: 70%;
+  margin-bottom: 2%;
+  font-size: 1.1rem;
+}
+
+.lab-img-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5%;
+  img {
+    width: 35%;
+    border: 0.5rem solid #216FDB;
+  }
+}
+
+.grid-container5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2%;
+  padding-bottom: 5%;
+  place-items: center;
+  img {
+    width: 80%;
+    border: 0.5rem solid #216FDB;
+  }
+}
+
+.item11 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item12 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.item13 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.item14 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item15 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.item16 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+//--------------Media Query For Tablet Size------------
+@media only screen and (max-width: 1400px) {
+  #lab-flex {
+    height: 40vh;
+    background-size: cover;
+  }
+
+  .lab-para-content {
+    width: 100%;
+  }
+
+  .grid-container5 {
+    grid-template-columns: auto auto;
+    place-items: center;
+    img {
+      width: 65%;
+    }
+  }
+}
+
+//-----------------Media Quesry For Phne Size--------------
+@media only screen and (max-width: 600px) {
+  #lab-flex {
+    height: 20vh;
+    background-size: cover;
+  }
+
+  .lab-heading {
+    letter-spacing: 0.5rem;
+    font-size: 1.75rem;
+  }
+
+  .lab-para-content {
+    width: 100%;
+  }
+
+  .lab-img-flex {
+    display: block;
+    img {
+      width: 70%;
+    }
+  }
+
+  .laboratories {
+    img {
+      margin-bottom: 3%;
+    }
+  }
+
+  .grid-container5 {
+    display: block;
+    margin-bottom: 2%;
+    img {
+      width: 70%;
+    }
+  }
+}

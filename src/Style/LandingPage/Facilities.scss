@@ -1,0 +1,30 @@
+.facilities {
+  border-top: 0.2rem solid #216FDB;
+  border-bottom: 0.2rem solid #216FDB;
+  width: 100%;
+  // height: 20vh;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.fLogo {
+  padding: 1.5rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  justify-content: center;
+}
+
+#digi {
+  white-space: normal;
+}

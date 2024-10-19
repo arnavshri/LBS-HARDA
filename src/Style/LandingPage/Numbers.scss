@@ -1,0 +1,41 @@
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #216fdb47;
+  margin: 1.5rem 0rem;
+  color: #216FDB;
+  font-family:"Calibri";
+  font-style: normal;
+  font-weight: normal;
+  padding: 1.5rem;
+
+  div {
+    margin: 0rem 2rem;
+  }
+}
+
+.counter {
+  color: #216FDB;
+
+  span {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: "990px"){
+  .counter{
+    span{
+      font-size: 1.2rem;
+    }
+  }
+
+  .numbers{
+   padding: 0.5rem;
+  }
+}

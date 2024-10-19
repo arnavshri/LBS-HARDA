@@ -1,0 +1,72 @@
+.LandAndBuilding {
+  padding: 1% 4% 3% 4%;
+  font-family:"Calibri";
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #216FDB;
+  }
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  .banner {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border: 0.3rem solid #216FDB;
+  }
+}
+
+.pdfList {
+  color: #216FDB;
+  font-size: 1.4rem;
+
+  .d-flex{
+    width: fit-content;
+    cursor: pointer;
+  }
+}
+
+h6 {
+  text-decoration: underline;
+  color: #216FDB;
+  font-size: 2rem;
+}
+
+//--------------Media Query For Tablet Size------------
+@media only screen and (max-width: 990px) {
+  .grid-container1 {
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+
+    .banner {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+}
+
+//-----------------Media Quesry For Phne Size--------------
+@media only screen and (max-width: 600px) {
+  .LandAndBuilding {
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  .grid-container1 {
+    display: block;
+    img {
+      margin-top: 2%;
+    }
+  }
+}

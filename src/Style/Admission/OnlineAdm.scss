@@ -1,0 +1,70 @@
+#onlineAdm {
+  text-align: center;
+  p {
+    font-size: 1.3rem;
+    width: 90%;
+    margin: auto;
+  }
+  margin-bottom: 2rem;
+}
+
+.step-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps {
+  display: flex;
+  margin: 2rem 0;
+  width: 75%;
+  border: 0.1rem solid #216FDB;
+  padding: 2rem;
+  justify-content: flex-end;
+}
+
+.stepBox {
+  background-color: #216FDB;
+  border-radius: 0 3rem 3rem 0;
+  color: white;
+  position: relative;
+  left: 5%;
+  height: fit-content;
+  padding: 0.5rem 2rem;
+}
+
+.Process {
+  width: 90%;
+  p {
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .step-cont {
+    flex-direction: column;
+  }
+
+  .Process {
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  // .aboutHead h1{
+  //     width: 90%;
+  // }
+
+  .aboutHead p {
+    width: 90%;
+    margin: auto;
+  }
+
+  .stepBox {
+    left: 0;
+    bottom: 5%;
+    border-radius: 0;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    top: 10vh;
+  }
+}

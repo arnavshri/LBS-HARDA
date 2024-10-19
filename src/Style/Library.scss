@@ -1,0 +1,118 @@
+#lib-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  background-image: url("https://res.cloudinary.com/lbs-harda/image/upload/v1648912126/1_gaq02j.png");
+  object-fit: cover;
+}
+
+.lib-heading {
+  font-family:"Calibri";
+  color: #ffffff;
+  font-size: 4.9rem;
+  letter-spacing: 1.5rem;
+  text-align: center;
+}
+
+.lib-content {
+  padding: 2% 3%;
+  font-family:"Calibri";
+  h1 {
+    margin-top: 2%;
+    text-align: center;
+    text-decoration: underline;
+    color: #216FDB;
+    font-size: 2rem;
+  }
+  p {
+    text-align: justify;
+    font-size: 1.8rem;
+    padding: 1.5%;
+  }
+}
+
+.lib-staff {
+  font-size: 1.6rem;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+  padding: 2% 10%;
+  place-items: center;
+  img {
+    width: 90%;
+    border: 0.5rem solid #216FDB;
+  }
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.item1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+//--------------Media Query For Tablet Size------------
+@media only screen and (max-width: 1400px) {
+  #lib-flex {
+    height: 40vh;
+    background-size: cover;
+  }
+
+  .grid-container3 {
+    place-items: center;
+    img {
+      width: 70%;
+    }
+  }
+}
+
+//-----------------Media Quesry For Phne Size--------------
+@media only screen and (max-width: 600px) {
+  #lib-flex {
+    height: 20vh;
+    background-size: cover;
+  }
+
+  .lib-heading {
+    font-size: 1.5rem;
+  }
+
+  .lib-content {
+    p {
+      font-size: 1.1rem;
+      text-align: justify;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+
+  .lib-staff {
+    font-size: 1.1rem;
+  }
+
+  .grid-container3 {
+    display: block;
+    margin-bottom: 5%;
+    img {
+      margin-bottom: 7%;
+    }
+  }
+}

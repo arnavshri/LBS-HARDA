@@ -1,0 +1,39 @@
+#committees {
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+  align-items: center;
+  h2,
+  h3 {
+    text-align: center;
+  }
+  h2 {
+    margin: 2rem auto;
+  }
+  margin-bottom: 4rem;
+}
+
+.grid-container7 {
+  padding: 2% 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  place-items: center;
+  text-align: center;
+  grid-gap: 2%;
+  h3 {
+    margin-top: 3%;
+  }
+}
+
+table {
+  text-align: left;
+  width: 80% !important;
+  margin: auto;
+}
+
+@media only screen and (max-width: 990px) {
+  .comHeads {
+    flex-direction: column;
+  }
+}

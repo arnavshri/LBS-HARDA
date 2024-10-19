@@ -1,0 +1,175 @@
+.tc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  #recognization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 95vw;
+
+    span {
+      font-size: 1.1rem;
+    }
+  }
+
+  #para {
+    width: 95vw;
+    text-align: left;
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.headingcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #216FDB;
+  color: white;
+  width: 95vw;
+  margin-top: 0.5rem;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 95vw;
+  .cource {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0rem;
+    height: 30vh;
+    width: 19vw;
+    color: white;
+
+    h2 {
+      position: absolute;
+      font-family:"Calibri";
+      font-style: normal;
+      font-weight: 800;
+      width: fit-content;
+      font-size: 3rem;
+    }
+
+    img {
+      position: relative;
+      z-index: -1;
+      height: 80%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+
+  .row {
+    width: 100%;
+  }
+}
+
+.main-cources-brief{
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+
+  .vl{
+    height: 68vh;
+  }
+}
+
+.coursesBrief {
+  display: flex;
+  width: 95vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 2rem 0rem;
+  .courceBrief {
+    margin: 0 2rem;
+    font-family:"Calibri";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+
+    margin-bottom: 2rem;
+
+    h1 {
+      color: #216FDB;
+      text-decoration: 0.15rem underline;
+      font-size: 2.2rem;
+    }
+
+    p {
+      margin: 0;
+
+      b {
+        color: #216FDB;
+      }
+    }
+    ul {
+      li {
+        list-style: disc;
+      }
+    }
+  }
+}
+
+.tc {
+  button {
+    margin: 0 2rem;
+    padding: 0.5rem 4rem;
+    border: 0.1rem solid #216FDB;
+    background-color: white;
+    color: #216FDB;
+  }
+
+  .active {
+    background-color: #216FDB;
+    color: white;
+    border: none;
+  }
+}
+
+//Mobile & Tablet
+@media only screen and (max-width: 990px) {
+  #para {
+    text-align: center !important;
+  }
+
+  .col-4 {
+    width: 100% !important;
+  }
+
+  .courses {
+    flex-direction: column;
+
+    .cource {
+      width: 95vw;
+    }
+  }
+
+  .courceBrief {
+    width: 90%;
+    margin: auto;
+  }
+
+  .tc {
+    button {
+      margin: 1rem 0;
+    }
+  }
+}

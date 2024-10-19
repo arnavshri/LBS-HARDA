@@ -1,0 +1,41 @@
+.BEd {
+  text-align: center;
+  align-items: center;
+  h4 {
+    color: #216FDB;
+  }
+  h3 {
+    margin: 0.8rem auto;
+  }
+}
+
+.BEd-text {
+  width: 75%;
+  margin: 2.5rem auto;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 5rem 4rem;
+
+  p {
+    font-size: 1.3rem;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+
+  }
+}
+
+.info-box {
+  margin: 4rem auto;
+  border: 0.2rem solid #216FDB;
+}
+
+@media only screen and (max-width: 990px) {
+  .BEd-text {
+    width: 90%;
+    padding: 3rem 1.5rem;
+    p {
+      width: 90%;
+    }
+  }
+}
